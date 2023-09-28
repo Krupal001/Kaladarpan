@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAGBAZAAR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/js/fontawesome.min.js" integrity="sha512-nKvEIGRKw2OQCR34yLfnWnvrOBxidLG9aK+vzsBxCZ/9ZxgcS4FrYcN+auWUTkCitTVZAt82InDKJ7x+QtKu6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
+    <link rel="stylesheet" href="style.css">
+    <link href="./contact.css" rel="stylesheet">
+    <link rel="stylesheet" href="product.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" ></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo" style="color:var(--black);font-size: 2.5rem;font-weight: bolder;"><img class="i" src="school-bag.png" alt="bagpack image" height="30px" style="position:fixed;left:120px;">BAG<span>bazaar</span></a>
+        
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="#Offers">Offers</a>
+            <a href="#" class="categories">Categories<i class="fa fa-caret-down" id="dropicon" aria-hidden="true"></i></a>
+            <div class="category_menu" style="display: none;">
+                <ul>
+                <li><a href="">Woman Bags</a></li>
+                    <li><a href="description3.html">Hand Bags</a></li>
+                    <li><a href="description2.html">Luggage Bags</a></li> 
+                    <li><a href="description4.html">Track Bags</a></li> 
+                    <li><a href="description1.html">Laptop Bags</a></li>
+                    <li><a href="">Backpacks</a></li>
+            </ul>
+            </div>
+        <a href="#" class="brands">Brands <i class="fa fa-caret-down" id="dropicon" aria-hidden="true"></i>
+        </a>
+            <div class="dropdown_menu">
+                <ul>
+                    <li><a href="">V.I.P</a></li>
+                    <li><a href="">American Tourister</a></li> 
+                    <li><a href="description4.html">Gear</a></li> 
+                    <li><a href="">wrogn</a></li>
+                    <li><a href="">Skybags</a></li>
+            </ul>
+            </div>
+        <a href="#contact">Contact Details</a>
+        
+    </nav>
+    <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn" onclick="window.location.assign('cart.html')"></div>
+      <!--  <div class="fa fa-user" id="login-btn"></div>-->
+        
+    </div>
+
+    <form class="search-form">
+        <input type="text" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fa fa-search"></label>
+    </form>
+    
+
+    <script src="./script.js"></script>
+</header>
+<br>
+<br>
+<br>
+<br>
+<section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+        <img src="b3.jpg" width="100%" id="MainImg" alt="">
+    </div>
+
+    <div class="single-pro-details">
+        <h2>Hand bags</h2>
+        <h3>Beclina Handbag For Women And Girls </h3>
+        <h2>Rs.1200</h2>
+      
+        <input type="number" value="1">
+        <a href="./cart.html" class="normal"style="color:black;" >Add to cart</a>
+        <h4>Product Details</h4>
+        <span style="color: black;">
+         <pre>
+            A bag that carries your world! A tote bag is a shoulder bag with parallel
+            handles and comes either with or without side panels.
+            Blue exterior with 1 main compartment I 3 total number of pocket I Zipper
+            closure I Cruelty-free premium material
+
+             Dimension :- Length : 36.2 cm
+             x Width : 12.7 cm
+             x Height : 30.48 cm
+
+            Made in India | 6 Months warranty | Leading fashion handbag brand since 30 years
+            The elegant women's handbag is a perfect match for different occasions, such as travel,
+            shopping, and other daily use,  which could be a great ideal gift for your family
+            and friends on their birthdays, anniversaries, weddings, and other
+            special events.
+        </pre>
+         </span>
+    </div>
+</section>
+
+</body>
+</html>    

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAGBAZAAR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/js/fontawesome.min.js" integrity="sha512-nKvEIGRKw2OQCR34yLfnWnvrOBxidLG9aK+vzsBxCZ/9ZxgcS4FrYcN+auWUTkCitTVZAt82InDKJ7x+QtKu6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
+    <link rel="stylesheet" href="style.css">
+    <link href="./contact.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" ></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo" style="color:var(--black);font-size: 2.5rem;font-weight: bolder;"><img class="i" src="school-bag.png" alt="bagpack image" height="30px" style="position:fixed;left:105px;">BAG<span>bazaar</span></a>
+        
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="product.html">Products</a>
+            <a href="#" onclick="alert('Sorry,currently any offer is not active!!!..')">Offers</a>
+            <a href="#" class="categories">Categories<i class="fa fa-caret-down" id="dropicon" aria-hidden="true"></i></a>
+            <div class="category_menu" style="display: none;">
+                <ul>
+                     <li><a href="">Woman Bags</a></li>
+                    <li><a href="description3.html">Hand Bags</a></li>
+                    <li><a href="description2.html">Luggage Bags</a></li> 
+                    <li><a href="description4.html">Track Bags</a></li> 
+                    <li><a href="description1.html">Laptop Bags</a></li>
+                    <li><a href="">Backpacks</a></li>
+            </ul>
+            </div>
+        <a href="#" class="brands">Brands <i class="fa fa-caret-down" id="dropicon" aria-hidden="true"></i>
+        </a>
+            <div class="dropdown_menu">
+                <ul>
+                    <li><a href="">V.I.P</a></li>
+                    <li><a href="">American Tourister</a></li> 
+                    <li><a href="description4.html">Gear</a></li> 
+                    <li><a href="">wrogn</a></li>
+                    <li><a href="">Skybags</a></li>
+            </ul>
+            </div>
+        <a href="#contact">Contact Details</a>
+        
+    </nav>
+    <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+       <!-- <div class="fa fa-user" id="login-btn"></div>-->
+        
+    </div>
+
+    <form class="search-form">
+        <input type="text" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fa fa-search"></label>
+    </form>
+    
+</header>
+<br>
+<br>
+<br>
+<br>
+
+<img src="./banner.png" alt="this is banner" style="background-size: cover;" width="100%"/>
+<footer id="contact">
+    <div class="footer_info">
+        <div class="footer_width about">
+            <h2 style="font-size: 30px;font-family: 'Times New Roman', Times, serif;">About</h2>
+            <p style="font-size: 14px;">
+                Bag Bazaar is an online bags and purchase store. 
+                Basically we used to deal with customers stand a alone from past 20 years.
+                We believe in customer’s supremacy.
+                And we deal in various bag brands and non brand with enriched quality.
+                Bag Bazaar is able to deliver the best imaginable value for our customers, 
+                stakeholders and the planet!!
+            </p>
+        
+            <div class="social_media">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    </a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/krupal_611/?next=%2F"><i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a></li>
+                    <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_width link" style="cursor: pointer;margin-left: 30px;">
+            <h2 style="font-size: 30px;font-family: 'Times New Roman', Times, serif;">Quick Link</h2>
+            <ul>
+                <li style="font-size: 14px;margin-bottom: 10px;"><p onclick="alert(`This document is an electronic record in terms of Information Technology Act, 2000 and rules there under as applicable and the amended provisions pertaining to electronic records in various statutes as amended by the Information Technology Act, 2000. This electronic record is generated by a computer system and does not require any physical or digital signatures.`)">Terms And Conditions</p></li>
+                <li style="font-size: 14px;margin-bottom: 10px;"><p onclick="alert('While you may be able to browse certain sections of the Platform without registering with us, however, please note we do not offer any product or service under this Platform outside India. Your personal information will primarily be stored and processed in India and may have data protection laws that are different from those that apply in the country in which you are located. By visiting this Platform, providing your information or availing out product/service, you expressly agree to be bound by the terms and conditions of this Privacy Policy, the Terms of Use and the applicable service/product terms and conditions, and agree to be governed by the laws of India including but not limited to the laws applicable to data protection and privacy. If you do not agree please do not use or access our Platform.')">Privacy Policy</p></li>
+                <li style="font-size: 14px;"><a href="#">Home</a></li><br>
+                <li style="font-size: 14px;"><a href="#">Offers</a></li>
+            </ul>
+        </div>
+        <div class="footer_width contact">
+            <h2 style="font-size: 30px;font-family: 'Times New Roman', Times, serif;">Contact</h2>
+            <ul>
+                <li>
+                    <span class="clogo"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </span>
+                    <p style="font-size: 14px;">L. B. Avenue society, House no. 12, "Aashish" Bnglo, near janta salun, Kishan Samosa's Lan, College Road, Nadiyad .
+                    </p>
+                </li>
+                <li>
+                    <span class="clogo"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNvMzzvwRTjXCfBdRqLWGsDVPWdBRGRZrfJLbwRpdMhGGLsVcVghKHDHhHwczDwFrfjxNB">krupal24x7@gmail.com</a>
+                </li><br>
+                <li><span class="clogo"><i class="fa fa-phone" aria-hidden="true"></i>
+                </span>
+                <a href="">+91 9408520471</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div class="copy-right">
+        <div class="fa fa-copyright" aria-hidden="true"> COPYTIGHT 2022 BAGBAZAAR ALL RIGHTS RESERVED</div>
+    
+    </div>
+</footer>
+<script src="./script.js"></script>
+</body>
+</html>
